@@ -55,7 +55,7 @@ class Bola:
         self.imagem=pygame.Surface(tamanho)
         self.imagem.fill(BRANCO)
         self.imagem_retangulo=self.imagem.get_rect()
-        self.velocidade = 10
+        self.velocidade = 10 # VELOCIDADE DA BOLA
         self.flag = False               
         self.set_bola()
 
@@ -142,7 +142,7 @@ placar1=Placar()
 
 # iniciar
 MODO_JOGO = True
-# contra a máquina
+# contra a máquina(requer aumento de velocidade da polinha- linha 58)
 MODO_CONTRA_IA =  False
 # gráfioo em tempo real
 MODO_GRAFICO =  False
