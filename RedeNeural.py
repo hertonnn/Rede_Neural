@@ -27,7 +27,7 @@ def dSigmoid(matriz):
             linha.append(elemento)
         resultado.append(linha)
 
-        return np.array(resultado)
+    return np.array(resultado)
 
 # iniciando a rede neural
 
